@@ -10,9 +10,10 @@ A. Eclipse + IvyDE
 1. Install IvyDE
 2. At Window -> Preference -> Ivy -> Settings, check reload the setting on demand, add Ivy setting path `ivysettings.xml`, Property files `build.properties`.
 3. At Window -> Preference -> Ivy -> Classpath container, check Resolve dependencies in workspace.
-4. Add new Java project, point the path to pentaho project.
-5. Add Ivy managed dependencies library in new project wizard.
-6. Replace jar %UserProfile%/.ivy2/cache/org.eclipse.swt/swt-linux-x86_64/jars with OS swt.jar (rename)
+6. Replace jar `%UserProfile%/.ivy2/cache/org.eclipse.swt/swt-linux-x86_64/jars` with OS swt.jar (rename)
+7. Change `<dependency org="org.eclipse.swt" name="swt-linux-x86_64" rev="3.7" transitive="false" />` in UI project to `<dependency org="org.eclipse.swt" name="swt-win32" rev="3.3.0.3346" transitive="false" />`.
+8. Add new Java project, point the path to pentaho project.
+9. Add Ivy managed dependencies library in new project wizard.
 
 B. Pure Eclipse setting
 
