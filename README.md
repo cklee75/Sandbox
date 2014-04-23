@@ -6,6 +6,7 @@ Mainly to store testing code.
 To setup Pentaho Kettle at Eclipse.
 
 Dependency setup/Code Change
+
 1. Add `<dependency org="mysql"	name="mysql-connector-java"	rev="5.1.30"/>` at UI ivy.xml.
 2. Add assembly/package-res/ui in ui/src folder. (prefer softlink)
 3. Replace jar `%UserProfile%/.ivy2/cache/org.eclipse.swt/swt-linux-x86_64/jars` with OS swt.jar (rename)
