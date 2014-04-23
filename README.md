@@ -15,7 +15,7 @@ Dependency setup/Code Change
 
 A. Eclipse + IvyDE (at individual Pentaho project)
 
-1. Install IvyDE
+1. Install IvyDE from http://www.apache.org/dist/ant/ivyde/updatesite (ref: http://ant.apache.org/ivy/ivyde/download.cgi)
 2. At Window -> Preference -> Ivy -> Settings, check reload the setting on demand, add Ivy setting path `ivysettings.xml`, Property files `build.properties`.
 3. At Window -> Preference -> Ivy -> Classpath container, check Resolve dependencies in workspace.
 8. Add new Java project at project you want to work on, point the path to pentaho project.
